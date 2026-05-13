@@ -1,0 +1,22 @@
+<div class="list-container">
+  <h2>Lista produktów</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Kod</th>
+        <th>Nazwa</th>
+        <th>Cena</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products()">
+        <td>{{ product.id }}</td>
+        <td>{{ product.code }}</td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.price | number:'1.2-2' }} PLN</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
