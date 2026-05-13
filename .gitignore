@@ -1,3 +1,17 @@
+# .NET Specific
+bin/
+obj/
+**/wwwroot/lib/
+[Tt]est[Cc]onfessional/
+[Bb]uild/
+
+# Visual Studio files
+.vs/
+.user
+*.user
+*.userosscache
+*.sln.docu
+
 # Prerequisites
 *.d
 
